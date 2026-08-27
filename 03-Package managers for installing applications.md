@@ -6,15 +6,15 @@
 
 
 
-A package is a piece of software that can be combined with other packages to form an application. Some packages may be large enough to form applications on their own. 
+A package is a piece of software that can be combined with other packages to form an application. Some packages may be large enough to form applications on their own.
 
 
 
-Packages contain the files necessary for an application to be installed. These files include dependencies, which are supplemental files used to run an application. 
+Packages contain the files necessary for an application to be installed. These files include dependencies, which are supplemental files used to run an application.
 
 
 
-Package managers can help resolve any issues with dependencies and perform other management tasks. A package manager is a tool that helps users install, manage, and remove packages or applications. Linux uses multiple package managers. 
+Package managers can help resolve any issues with dependencies and perform other management tasks. A package manager is a tool that helps users install, manage, and remove packages or applications. Linux uses multiple package managers.
 
 
 
@@ -22,7 +22,7 @@ Package managers can help resolve any issues with dependencies and perform other
 
 
 
-* Types of package managers
+* Types of package managers 
 
 
 
@@ -46,7 +46,7 @@ In addition to package managers like RPM and dpkg, there are also package manage
 
 
 
-\*	Advanced Package Tool (APT) 
+\*	Advanced Package Tool (APT)
 
 
 
