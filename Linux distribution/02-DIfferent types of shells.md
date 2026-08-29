@@ -45,6 +45,8 @@ Bash is the default shell in most Linux distributions. It’s considered a user-
 
 Bash is also the most popular shell in the cybersecurity profession. You’ll use bash throughout this course as you learn and practice Linux commands.
 
+
+
 * Key takeaways
 
 
