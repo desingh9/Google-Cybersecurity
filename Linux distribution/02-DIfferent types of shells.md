@@ -8,7 +8,8 @@ As you explored previously, the shell is the command-line interpreter. You can t
 
 
 * types of shells
-* 
+
+
 
 The many different types of Linux shells include the following:
 
@@ -49,8 +50,4 @@ Bash is also the most popular shell in the cybersecurity profession. You’ll us
 
 
 Shells are a fundamental part of the Linux operating system. Shells allow you to give commands to the computer and receive responses from it. They can be thought of as a translator between you and your computer system. There are many different types of shells, but the bash shell is the most commonly used shell in the cybersecurity profession. You’ll learn how to enter Linux commands through the bash shell later in this course.
-
-
-
-
 
