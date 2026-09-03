@@ -30,3 +30,15 @@ Directly below the root directory, you’ll find standard FHS directories. In th
     /mnt: This directory stands for “mount” and stores media, such as USB drives and hard drives.
 
 Pro Tip: You can use the man hier command to learn more about the FHS and its standard directories.
+
+User-specific subdirectories
+
+Under home are subdirectories for specific users. In the diagram, these users are  analyst and analyst2. Each user has their own personal subdirectories, such as projects, logs, or reports.
+
+Note: When the path leads to a subdirectory below the user’s home directory, the user’s home directory can be represented as the tilde (~). For example, /home/analyst/logs can also be represented as ~/logs.
+
+You can navigate to specific subdirectories using their absolute or relative file paths. The absolute file path is the full file path, which starts from the root. For example, /home/analyst/projects is an absolute file path. The relative file path is the file path that starts from a user's current directory.
+
+Note: Relative file paths can use a dot (.) to represent the current directory, or two dots (..) to represent the parent of the current directory. An example of a relative file path could be ../projects.
+
+
