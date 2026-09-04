@@ -52,3 +52,32 @@ The output should be:
 
 users
 
+Test the knowledge
+
+### **1\.**Question 1
+
+What does the term "command" mean?
+
+1. An instruction instructing a computer to execute a specific task  
+2. A fundamental element of the Linux system architecture  
+3. The top-level root directory within a Linux file system  
+4. A standard command-line shell utilized in Linux environments
+
+### **2\.Question 2**
+
+Which command is used to display the current working directory path on the screen?
+
+1. *pwd*  
+2. *ls*  
+3. *cat*  
+4. *head*
+
+### **3\.Question 3**
+
+What is the function of the *cd* command?
+
+1. Navigates between directories  
+2. Prints the working directory to the screen  
+3. Displays the names of files in the current directory  
+4. Outputs a specified string of text
+
