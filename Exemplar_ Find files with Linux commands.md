@@ -28,3 +28,7 @@ The command to complete this step:
 
 ls
 
+The output should be:
+
+logs  projects  reports  temp  
+Which directory is your current working directory? 
