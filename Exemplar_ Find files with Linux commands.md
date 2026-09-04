@@ -31,4 +31,24 @@ ls
 The output should be:
 
 logs  projects  reports  temp  
-Which directory is your current working directory? 
+Which directory is your current working directory?   
+**Answer:** The lab starts with /home/analyst as your current working directory. 
+
+## **Task 2\. Change directory and list the subdirectories**
+
+In this task, you must navigate to a new directory and determine the subdirectories it contains.
+
+1. Navigate to the /home/analyst/reports directory.
+
+The command to complete this step using a relative path:
+
+cd reports  
+The command to complete this step using an absolute path:   
+cd /home/analyst/reports  
+2\. Display the files and subdirectories in the /home/analyst/reports directory.   
+The command to complete this step:   
+ls  
+The output should be: 
+
+users
+
