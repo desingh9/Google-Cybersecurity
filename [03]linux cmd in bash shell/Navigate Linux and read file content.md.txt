@@ -1,0 +1,10 @@
+* Navigate Linux and read file content
+In this reading, you’ll review how to navigate the file system using Linux commands in Bash. 
+You’ll further explore the organization of the Linux Filesystem Hierarchy Standard, 
+review several common Linux commands for navigation and reading file content, and learn a couple of new commands.
+
+Filesystem Hierarchy Standard (FHS)
+
+Previously, you learned that the Filesystem Hierarchy Standard (FHS) is the component of Linux that organizes data. The FHS is important because it defines how directories, directory contents, and other storage is organized in the operating system.
+
+This diagram illustrates the hierarchy of relationships under the FHS.
