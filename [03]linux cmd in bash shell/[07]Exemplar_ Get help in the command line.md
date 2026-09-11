@@ -12,4 +12,26 @@ Discovering which commands to utilize and understanding their functionality is a
 
 Keeping these tools in mind, let’s move on to the scenario.
 
+## **Scenario Overview**
+
+In this scenario, you will gather additional details about necessary commands and determine which specific command is required to complete a given task.
+
+To complete this task, you will follow these steps:
+
+1. **1\. Explore shell help commands:** Examine standard commands used in the shell to gather information about other utilities.  
+2. **2\. Locate a command option:** Identify the required flag or option needed to modify a command's behavior.  
+3. **3\. Compare command summaries:** Generate concise command descriptions to analyze their differences.
+
+**4\. Select the appropriate command:** Determine the exact command suited for performing the target task.
+
+## **Task 1\. Learn more about commands**
+
+**First**, imagine you can’t quite remember what the *cat* command does and want a quick reminder.&nbsp;
+
+Run the *whatis* command to get a short description of *cat*
+
+whatis cat
+
 &nbsp;
+
+.&nbsp;
