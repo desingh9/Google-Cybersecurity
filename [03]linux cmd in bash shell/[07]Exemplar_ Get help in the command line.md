@@ -66,4 +66,34 @@ Which command returns the first part of a file?
 
 **Answer**: The *head* command returns only the first part of a file.
 
+Execute the *man* utility to view detailed documentation regarding *useradd* and examine every available option.
+
+The command to complete this step:&nbsp;
+
+man useradd
+
+&nbsp;
+
+## **Task 3\. Compare rm and rmdir**
+
+For this task, analyze how the *rm* utility differs from *rmdir*.
+
+Suppose you have executed both commands previously, but require a quick refresher regarding their distinction.
+
+* Run the most suitable shell utility to obtain a brief description for each command.
+
+***Note:** Completing this step involves executing two separate inputs, targeting rm and rmdir individually.*
+
+The commands to complete this step:&nbsp;
+
+whatis rm
+
+whatis rmdir
+
+&nbsp;
+
+Which of these commands removes only empty directories?
+
+**Answer**: The *rmdir* command removes only empty directories
+
 &nbsp;
