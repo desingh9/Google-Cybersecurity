@@ -96,4 +96,8 @@ Which of these commands removes only empty directories?
 
 **Answer**: The *rmdir* command removes only empty directories
 
+What command can you use to create a new group?
+
+**Answer**: The *groupadd* can be used to create a new group
+
 &nbsp;
