@@ -34,4 +34,36 @@ whatis cat
 
 &nbsp;
 
-.&nbsp;
+**Next**, imagine that you want more details about *cat* and all of its options.
+
+1. Use the *man* command to get more details about *cat*.
+
+The command to complete this step:
+
+man cat
+
+Running *man* provides an extensive summary of *cat* alongside details regarding every available flag:
+
+&nbsp;
+
+3\. Press **Q** to exit this manual page.
+
+**Now**, imagine you’ve remembered there’s a command that prints just the first part of a file, but you can’t remember the exact command. The *apropos* command is useful in these instances. You can use keywords with *apropos* to find a command.
+
+. . Use *apropos* to find a command that returns the first part of a file:&nbsp;
+
+apropos \-a first part file
+
+Which command returns the first part of a file?
+
+**Answer**: The *head* command returns only the first part of a file.
+
+## **Task 2\. Explore the useradd command**
+
+In this task, imagine that you want to set the expiration date for a temporary user account. You know that you need to use the *useradd* command for this, but you’re not quite sure how to complete the task. You realize it might involve adding an option to the command.&nbsp;
+
+Which command returns the first part of a file?
+
+**Answer**: The *head* command returns only the first part of a file.
+
+&nbsp;
