@@ -32,62 +32,138 @@ FROM customers;
 
 \+------------+---------------------+----------------+
 
-| CustomerId | City                | Country        |
+| CustomerId | City                | Country      |
 
 \+------------+---------------------+----------------+
 
-|          1 | São José dos Campos | Brazil         |
+|          1 | São José dos Campos | Brazil |
 
 |          2 | Stuttgart           | Germany        |
 
-|          3 | Montréal            | Canada         |
+|          3 | Montréal           | Canada         |
 
-|          4 | Oslo                | Norway         |
+|          4 | Oslo                  | Norway            |
 
 |          5 | Prague              | Czech Republic |
 
 |          6 | Prague              | Czech Republic |
 
-|          7 | Vienne              | Austria        |
+|          7 | Vienne              | Austria           |
 
 |          8 | Brussels            | Belgium        |
 
-|          9 | Copenhagen          | Denmark        |
+|          9 | Copenhagen     | Denmark  |
 
-|         10 | São Paulo           | Brazil         |
+|         10 | São Paulo        | Brazil      |
 
-|         11 | São Paulo           | Brazil         |
+|         11 | São Paulo        | Brazil      |
 
-|         12 | Rio de Janeiro      | Brazil         |
+|         12 | Rio de Janeiro | Brazil    |
 
 |         13 | Brasília            | Brazil         |
 
-|         14 | Edmonton            | Canada         |
+|         14 | Edmonton        | Canada |
 
-|         15 | Vancouver           | Canada         |
+|         15 | Vancouver        | Canada |
 
-|         16 | Mountain View       | USA            |
+|         16 | Mountain View | USA    |
 
-|         17 | Redmond             | USA            |
+|         17 | Redmond         | USA      |
 
-|         18 | New York            | USA            |
+|         18 | New York         | USA       |
 
-|         19 | Cupertino           | USA            |
+|         19 | Cupertino         | USA        |
 
-|         20 | Mountain View       | USA            |
+|         20 | Mountain View | USA        |
 
-|         21 | Reno                | USA            |
+|         21 | Reno                | USA             |
 
-|         22 | Orlando             | USA            |
+|         22 | Orlando            | USA           |
 
 |         23 | Boston              | USA            |
 
-|         24 | Chicago             | USA            |
+|         24 | Chicago            | USA           |
 
-|         25 | Madison             | USA            |
+|         25 | Madison            | USA           |
 
 \+------------+---------------------+----------------+
 
 (Output limit exceeded, 25 of 59 total rows shown)
+
+### **SELECT**
+
+The *SELECT* keyword indicates which columns to return. For example, you can return the *customerid* column from the *Chinook* database with
+
+*SELECT customerid*
+
+You can also select multiple columns by separating them with a comma. For example, if you want to return both the *customerid* and *city* columns, you should write *SELECT customerid, city*.
+
+If you want to return all columns in a table, you can follow the *SELECT* keyword with an asterisk (*\**). The first line in the query will be *SELECT \**.
+
+**Note:** While course tables are small, avoid using *SELECT \** on large databases because results can be slow to run and difficult to read.
+
+### **FROM**
+
+The *SELECT* keyword always comes with the *FROM* keyword. *FROM* indicates which table to query. To use the *FROM* keyword, you should write it after the *SELECT* keyword, often on a new line, and follow it with the name of the table you’re querying. If you want to return all columns from the *customers* table, you can write:
+
+*SELECT \**
+
+*FROM customers;*
+
+When you want to end the query here, you put a semicolon (*;*) at the end to tell SQL that this is the entire query.
+
+**Note:** Line breaks are not necessary in SQL queries, but are often used to make the query easier to understand. If you prefer, you can also write the previous query on one line as
+
+*SELECT \* FROM customers;*
+
+## **ORDER BY**
+
+Database tables are often very complicated, and this is where other SQL keywords come in handy. *ORDER BY* is an important keyword for organizing the data you extract from a table.
+
+*ORDER BY* sequences the records returned by a query based on a specified column or columns. This can be in either ascending or descending order.
+
+### **Sorting in ascending order**
+
+To use the *ORDER BY* keyword, write it at the end of the query and specify a column to base the sort on. In this example, SQL will return the *customerid*, *city*, and *country* columns from the *customers* table, and the records will be sequenced by the *city* column:
+
+SELECT customerid, city, country
+
+FROM customers
+
+ORDER BY city;
+
+&nbsp;
+
+| CustomerId | City         | Country        |
+
+\+------------+--------------+----------------+
+
+|         48 | Amsterdam    | Netherlands    |
+
+|         59 | Bangalore    | India          |
+
+|         36 | Berlin       | Germany        |
+
+|         38 | Berlin       | Germany        |
+
+|         42 | Bordeaux     | France        |
+
+|         23 | Boston       | USA          |
+
+|         13 | Brasília     | Brazil         |
+
+|          8 | Brussels     | Belgium     |
+
+|         45 | Budapest     | Hungar    |
+
+|         56 | Buenos Aires | Argentina |
+
+&nbsp;
+
+&nbsp;
+
+* The *ORDER BY* clause arranges query results according to the specified column. By default, records are organized in ascending order as follows:  
+* **Alphabetical data:** Columns with text (such as *city*) are sorted from A to Z.  
+* **Numeric data:** Columns with numbers (such as *customerid*) are sorted from smallest to largest value.
 
 &nbsp;
