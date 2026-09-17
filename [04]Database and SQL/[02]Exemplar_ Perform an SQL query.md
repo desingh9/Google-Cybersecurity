@@ -114,4 +114,58 @@ What email client is returned in the third row?&nbsp;
 
 **Answer**: The email client returned in the third row is Email Client 2\.&nbsp;
 
+**Now**, you need information on the operating systems used on various devices and their last patch date.
+
+3\. Complete the query to return only the *device\_id*, *operating\_system*, and *OS\_patch\_date* columns from the *machines* table. Replace *X*, *Y*, and *Z* with the columns that you need to return:
+
+*SELECT X, Y, Z FROM machines;*
+
+The correct query to solve this step:
+
+SELECT device\_id, operating\_system, OS\_patch\_date
+
+FROM machines;
+
+What is the patch date of the first entry?
+
+**Answer**: The patch date of the first entry is 2021-09-01.
+
+*Why is this information useful?* As an analyst, finding old *OS\_patch\_date* entries is how you identify 'vulnerable' machines that hackers could exploit. Those machines are ones that you would want to target for an update.
+
+## **Task 2\. Investigate login activity**
+
+In this task, you need to analyze the information from the *log\_in\_attempts* table to determine if any unusual activity has occurred.
+
+**First**, you need to investigate the locations where login attempts were made to ensure that they’re in expected areas (the United States, Canada, or Mexico). In this task, you are looking for unusual activity by manually scanning the results.
+
+1. Write a SQL query to select the *event\_id* and *country* columns from the *log\_in\_attempts* table.
+
+The correct query to solve this step:&nbsp;
+
+SELECT event\_id, country
+
+FROM log\_in\_attempts;
+
+Q- Were any login attempts made from Australia?
+
+**Answer**: No. Login attempts were not made from Australia.
+
+*Why would this be helpful to know?* If your company only operates in North America, a login from Australia is a 'Red Flag' indicating a potential credential theft.
+
+**Next**, you need to check if login attempts were made outside of the organization's working hours.
+
+2\. Write a SQL query that selects the *username*, *login\_date*, and *login\_time* columns from the *log\_in\_attempts* table.
+
+The correct query to solve this step:
+
+SELECT username, login\_date, login\_time
+
+FROM log\_in\_attempts;
+
+What username is returned in the fifth row?
+
+**Answer**: The username returned in the fifth row is jrafael.
+
+*Why am I looking at login times?* Hackers often use stolen credentials to log in at 3:00 AM because they assume the employee is asleep and won't notice a "New Login" alert. As an analyst, you are looking for anomalies. If a daytime office worker suddenly has a successful login at midnight, it’s a "Red Flag" that the account might be compromised or an insider is accessing data they shouldn't.&nbsp;
+
 &nbsp;
