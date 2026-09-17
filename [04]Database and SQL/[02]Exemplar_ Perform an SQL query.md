@@ -30,6 +30,26 @@ The **log\_in\_attempts** table focuses on user activity and includes this colum
 
 Here’s how you’ll do this task: First, you’ll obtain information on the employee devices that must be updated. Next, you’ll examine the login attempts for unusual activity. Finally, you’ll use the ORDER BY keyword to sort the data returned by your SQL queries.
 
+OK, let’s get ready to practice running your very first SQL queries\!&nbsp;
+
+## **Task 1: Accessing Employee Device Records**
+
+In this task, you need to obtain information on employee devices because your team needs to update them. The information you need is in the *machines* table in the *organization* database.
+
+**First**, you need to retrieve all the information about the employee devices.
+
+1. Run the following query to select all device information from the *machines* table
+
+SELECT \*
+
+FROM machines;
+
+Think of a SQL query like a sentence you are saying to the database:
+
+* **SELECT:** "Which columns (specific details) do I want to see?"  
+* **FROM:** "Which table are they stored in?"  
+* **The Semicolon (;):** Think of this as the "period" at the end of your sentence. It tells the database, "I'm done talking, now run this\!"&nbsp;
+
 &nbsp;
 
 &nbsp;
