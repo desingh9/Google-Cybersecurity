@@ -73,6 +73,49 @@ How many rows were returned from the machines table? (You can view the number of
 
 **Answer**: The machines table returned 200 rows.
 
+## **Task 2\. Retrieve a list of the machines with OS 2**
+
+In this task, you need to obtain a list of all machines with the *'OS 2'* operating system because these machines need an update. To get this information, you’ll run your first SQL query with a filter.
+
+* Select all the records from the *machines* table with a value of *'OS 2'* in the *operating\_system* column. Replace the value X with the correct string: *SELECT device\_id, operating\_system FROM machines WHERE operating\_system \= 'X';*
+
+The command to complete this step:
+
+SELECT device\_id, operating\_system&nbsp;
+
+FROM machines&nbsp;
+
+WHERE operating\_system \= 'OS 2';
+
+If you encounter an error with your SQL query, check these three common requirements:
+
+* **The Semicolon:** Statements must end with a semicolon (*;*).  
+* **Single Quotes:** Text strings must be enclosed in single quotes.  
+  * *Correct:* WHERE operating\_system \= 'OS 2';  
+  * *Incorrect:* WHERE operating\_system \= OS 2;
+
+**Column Names:** Column names like *device\_id* or *operating\_system* should **not** have quotes.&nbsp;
+
 &nbsp;
+
+***Note:** The WHERE clause allows you to filter the results returned by a query by returning only the records that satisfy the condition.*
+
+The output displays the selected columns of the *machines* table, filtered by the operating system:
+
+| a821b452c176 | OS 2             |
+
+| b157c491d493 | OS 2             |
+
+| b264c773d977 | OS 2             |
+
+|...                              |
+
+\+--------------+------------------+
+
+80 rows in set (0.264 sec)
+
+How many machines in the database use the OS 2 operating system?
+
+**Answer**: There are 80 machines in the database that use the OS 2 operating system.
 
 &nbsp;
